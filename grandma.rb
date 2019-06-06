@@ -1,13 +1,13 @@
-speak_to_grandma !== phrase.upcase
+speak_to_grandma !== speak_to_grandma.upcase
 
-if phrase == "Hi Nana, how are you?"
+if speak_to_grandma == "Hi Nana, how are you?"
   print "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "Hi"
+elsif speak_to_grandma == "Hi"
   print "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "WHAT DID YOU EAT TODAY?"
+elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
   print "NO, NOT SINCE 1938!"
-elsif phrase == "WHAT?"
+elsif speak_to_grandma == "WHAT?"
   print "NO, NOT SINCE 1938!"
-else phrase == "I LOVE YOU GRANDMA!"
+else speak_to_grandma == "I LOVE YOU GRANDMA!"
   print "I LOVE YOU TOO PUMPKIN!"
 end
