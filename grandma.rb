@@ -1,4 +1,4 @@
-speak_to_grandma == phrase
+speak_to_grandma !== phrase.upcase
 
 if phrase == "Hi Nana, how are you?"
   print "HUH?! SPEAK UP, SONNY!"
